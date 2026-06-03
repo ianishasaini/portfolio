@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Aspiring Data Analyst portfolio showcasing SQL, Excel, Python, Power BI, dashboards, analytics projects, and business insights." />
+  <meta name="keywords" content="Data Analyst, Business Analyst, Power BI, SQL, Excel, Python, Dashboard, Portfolio" />
+  <meta name="author" content="Your Name" />
+  <title>Your Name | Aspiring Data Analyst Portfolio</title>
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <script defer src="script.js"></script>
+
+  <!-- Google Analytics Placeholder -->
+  <!-- Replace G-XXXXXXXXXX with your real Google Analytics Measurement ID -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag("js", new Date());
+    gtag("config", "G-XXXXXXXXXX");
+  </script>
+</head>
+<body>
+  <div class="loader" id="loader">
+    <div class="loader-ring"></div>
+    <p>Loading portfolio...</p>
+  </div>
+
+  <header class="site-header" id="top">
+    <nav class="navbar">
+      <a href="#home" class="logo" aria-label="Home">
+        <!-- <span class="logo-mark">DA</span> -->
+        <span class="logo-text">Anisha Saini</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero section" id="home">
+      <div class="hero-content reveal">
+        <p class="eyebrow">Data • Dashboards • Business Insights</p>
+        <h1>Aspiring Data Analyst | Turning Data into Actionable Insights</h1>
+        <p class="hero-intro">
+          MBA (Analytics and Finance) with hands-on experience in SQL, Power BI, Excel, and Business Intelligence. Passionate about transforming complex datasets into meaningful insights that drive business growth and operational efficiency.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn primary" href="assets/resume.pdf" download>Download Resume</a>
+          <a class="btn secondary" href="#projects">View Projects</a>
+          <a class="btn ghost" href="#contact">Contact Me</a>
+        </div>
+
+        <div class="social-links" aria-label="Social media links">
+          <a href="https://www.linkedin.com/in/anishaasaini/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/anisha-projects" target="_blank" rel="noopener">GitHub</a>
+          <a href="mailto:anishasaini.contact@gmail.com">Email</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="photo-card">
+          <div class="photo-placeholder">
+            <img src="./Images/Profile.png" >
+          </div>
+          <div class="floating-chip chip-one">SQL</div>
+          <div class="floating-chip chip-two">Power BI</div>
+          <div class="floating-chip chip-three">Excel</div>
+        </div>
+
+        
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">About Me</p>
+        <h2>Business-minded analyst with a strong data foundation.</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I've always been interested in understanding how businesses grow, make decisions, and solve problems. During my MBA in Business Economics, I was introduced to the world of data and realized that behind every successful business decision is a story hidden in numbers. That curiosity led me to explore data analytics and learn tools such as SQL, Excel, Power BI, and Python.
+                <br><br>
+              As I worked on projects and internships, I found that I genuinely enjoy working with data. Whether it's cleaning datasets, creating dashboards, or identifying trends, I like the process of turning raw information into meaningful insights. Seeing data answer questions and support decision-making is what makes analytics exciting for me.
+                <br><br>
+              Today, I am focused on building a career in Data Analytics and Business Intelligence. I enjoy learning new technologies, solving business problems, and continuously improving my analytical skills. My goal is to use data to help organizations make smarter decisions and create a positive impact through data-driven insights.
+          </p>
+        </div>
+
+        <div class="stats-grid reveal">
+          <article class="stat-card">
+            <strong data-count="3">0</strong>
+            <span>Projects Completed</span>
+          </article>
+          <article class="stat-card">
+            <strong data-count="2">0</strong>
+            <span>Internship Experience</span>
+          </article>
+          <article class="stat-card">
+            <strong data-count="8">0</strong>
+            <span>Tools Learned</span>
+          </article>
+          <article class="stat-card">
+            <strong data-count="4">0</strong>
+            <span>Certifications</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Skills</p>
+        <h2>Technical, analytical, and business-ready skill set.</h2>
+      </div>
+
+      <div class="skill-tabs reveal">
+        <button class="tab-btn active" data-skill-tab="technical">Technical Skills</button>
+        <button class="tab-btn" data-skill-tab="tools">Tools</button>
+        <button class="tab-btn" data-skill-tab="soft">Soft Skills</button>
+      </div>
+
+      <div class="skills-container reveal" id="skillsContainer"></div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Experience</p>
+        <h2>Practical exposure through internships and business projects.</h2>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="duration">Jun 2025 – Aug 2025</span>
+            <h3>Tax Analyst Intern — Devyani International Ltd.</h3>
+            <p>Worked on tax analytics, reporting automation, compliance analysis, and dashboard development.</p>
+            <ul>
+              <li>Processed 150+ deferred tax entries, analyzing ₹200+ Cr tax flows, improving compliance accuracy by 18% while building Power BI dashboards tracking indirect tax trends across 500+ locations and designing Excel models, reducing report generation time by 40%, enabling tax exposure identification 2 weeks earlier, and accelerating audit readiness
+              </li>
+            </ul>
+            <div class="tags">
+              <span>Excel</span><span>Power BI</span><span>Tax Analytics</span><span>Data Analysis</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="duration">Jun 2022 – Aug 2022</span>
+            <h3>Management Trainee — Sona Comstar</h3>
+            <p>Managed employee training analytics and reporting using advanced Excel-based solutions.</p>
+            <ul>
+              <li>Independently managed and analysed 100+ employee training sessions using Advanced Excel (pivot tables, dynamic dashboards, VLOOKUP), optimising scheduling workflows, evaluating post-session feedback, and delivering actionable insights that reduced program gaps by 25% and improved training effectiveness scores consistently.</li>
+            </ul>
+            <div class="tags">
+              <span>Advanced Excel</span><span>Pivot Tables</span><span>VLOOKUP</span><span>Dashboard Development</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Projects</p>
+        <h2>Data analytics projects focused on insights and business impact.</h2>
+      </div>
+
+      <div class="project-controls reveal">
+        <!-- <div class="filter-buttons" id="filterButtons">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="sql">SQL</button>
+          <button class="filter-btn" data-filter="powerbi">Power BI</button>
+          <button class="filter-btn" data-filter="excel">Excel</button>
+          <button class="filter-btn" data-filter="python">Python</button>
+        </div> -->
+        <input type="search" id="projectSearch" placeholder="Search projects..." aria-label="Search projects" />
+      </div>
+
+      <div class="project-grid reveal" id="projectGrid"></div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section" id="education">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Education</p>
+        <h2>Academic foundation in business, economics, finance, and analytics.</h2>
+      </div>
+
+      <div class="education-grid">
+        <article class="education-card reveal">
+          <span class="duration">2024 – 2026</span>
+          <h3>MBA — Business Economics</h3>
+          <p>University of Delhi</p>
+          <ul>
+            <li>Majot: Analytics and Finance</li>
+            <li>Relevant Coursework: Statistics, Econometrics, Portfolio Management, Business Analytics, Financial Analysis</li>
+          </ul>
+        </article>
+
+        <article class="education-card reveal">
+          <span class="duration">2020 – 2023</span>
+          <h3>BBA</h3>
+          <p>NIMS University</p>
+          <ul>
+            <li>GPA - 8.6/10</li>
+            <li>Relevant Coursework: Project Management, Risk Management, Research Methodology, Business Statistics</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section class="section" id="certifications">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Certifications</p>
+        <h2>Continuous learning across analytics tools and business intelligence.</h2>
+      </div>
+
+      <div class="cert-grid reveal">
+        <article class="cert-card">
+          <div class="cert-image"> <img src="./Images/cert3.jpeg"> </div>
+          <h3>Advanced Excel & SQL Workshop</h3>
+          <p>Havish M. Consulting</p>
+          <a href="./Images/cert3.jpeg" target="_blank" rel="noopener">Verify Certificate</a>
+        </article>
+        <article class="cert-card">
+          <div class="cert-image"> <img src="./Images/cert2.png">  </div>
+          <h3>SQL Advanced</h3>
+          <p>HackerRank</p>
+          <a href="https://www.hackerrank.com/certificates/acd2b11f486d" target="_blank" rel="noopener">Verify Certificate</a>
+        </article>
+        <article class="cert-card">
+          <div class="cert-image"> <img src="./Images/cert1.jpg">  </div>
+          <h3>Advanced Data Analytics</h3>
+          <p>Udemy</p>
+          <a href="./Images/cert1.jpg" target="_blank" rel="noopener">Verify Certificate</a>
+        </article>
+        <article class="cert-card">
+          <div class="cert-image"> <img src="./Images/cert5.png">  </div>
+          <h3>Integrated Credit risk</h3>
+          <p>Peaks2tails</p>
+          <a href="/Images/cert5.png" target="_blank" rel="noopener">Verify Certificate</a>
+        </article>
+        <article class="cert-card">
+          <div class="cert-image"> <img src="./Images/cert4.png">  </div>
+          <h3>Python Data Analysis</h3>
+          <p>FreeCodeCamp</p>
+          <a href="./Images/cert4.png" target="_blank" rel="noopener">Verify Certificate</a>
+        </article>
+        
+      </div>
+    </section>
+
+    <!-- RESUME -->
+    <section class="section resume-section" id="resume">
+      <div class="resume-card reveal">
+        <div>
+          <p class="eyebrow">Resume</p>
+          <h2>Recruiter-friendly resume preview</h2>
+          <p>Download the latest resume or open it online to review my education, skills, internships, and projects.</p>
+        </div>
+        <div class="resume-actions">
+          <a class="btn primary" href="assets/resume.pdf" download>Download Resume PDF</a>
+          <a class="btn secondary" href="assets/resume.pdf" target="_blank">View Resume Online</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- GITHUB & LINKEDIN -->
+    
+
+    <!-- ACHIEVEMENTS -->
+    <section class="section" id="achievements">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Achievements</p>
+        <h2>Leadership, teamwork, and execution beyond academics.</h2>
+      </div>
+
+      <div class="achievement-grid reveal">
+        <article><h3>Organizer & Licensee </h3> <p> - TEDxDFBEDU (2024 – 2026)</p><br> <p>• Secured official TEDx license and led end-to-end execution for 200-attendees, managing ₹4.5L budget and 34-member team <br>
+              • Curated 11 speaker lineup and drove branding strategy, scaling social media reach from 174K to 700K impressions</p></article>
+        <article><h3>Senior Coordinator </h3> <p>- Corporate & Public Relations Committee (2024 – 2026)</p> <br> <p>• Managed end-to-end stakeholder communications with 25+ industry professionals, strengthening institutional brand positioning <br>
+              • Designed targeted LinkedIn outreach campaigns, increasing corporate response rate by 35% and expanding partnership pipeline</p></article>
+        <article><h3>Student Coordinator </h3> <p>- Central university coordination team (2021 – 2022)</p> <br> <p>• Oversaw backstage logistics and cross-functional coordination, ensuring seamless execution and zero event disruptions <br>
+              • Spearheaded venue setup and breakdown operations, streamlining workflow across multi-team university events</p></article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Let’s connect </h2>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-card reveal">
+          <h3>Contact Details</h3>
+          <br>
+          <p><strong>Email:</strong> <a href="mailto:anishasaini.contact@gmail.com"> anishasaini.contact@gmail.com </a></p>
+          <p><strong>Phone:</strong> +91 9810915857</p>
+          <p><strong>Location:</strong> Gurugram, India</p>
+          <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/anishaasaini" target="_blank" rel="noopener">Profile Link</a></p>
+          <p><strong>GitHub:</strong> <a href="https://github.com/anisha-projects" target="_blank" rel="noopener">Profile Link</a></p>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="form-group">
+            <input id="name" name="name" type="text" placeholder="Your name" required />
+          </div>
+
+          <div class="form-group">
+            <input id="email" name="email" type="email" placeholder="Your email" required />
+          </div>
+
+          <div class="form-group">
+            <textarea id="message" name="message" rows="3" placeholder="Write your message..." required></textarea>
+          </div>
+
+          <button class="btn primary" type="submit">Send Message</button>
+          <p class="success-message" id="successMessage">Message prepared successfully. Your email app will open now.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <a href="#home" class="logo">
+        <!-- <span class="logo-mark">DA</span> -->
+        <span class="logo-text">Anisha Saini</span>
+      </a>
+      <p>Aspiring Data Analyst | Turning Data into Actionable Insights</p>
+    </div>
+
+    <div class="footer-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="footer-social">
+      <a href="https://www.linkedin.com/anishaasaini" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/anisha-projects" target="_blank" rel="noopener">GitHub</a>
+      <a href="assets/resume.pdf" download>Resume</a>
+    </div>
+
+    <p class="copyright">© <span id="year"></span> Your Name. All rights reserved.</p>
+  </footer>
+
+  <a class="back-to-top" href="#top" aria-label="Back to top">↑</a>
+
+  <div class="modal" id="projectModal" aria-hidden="true">
+    <div class="modal-overlay" data-close-modal></div>
+    <article class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" data-close-modal aria-label="Close project details">×</button>
+      <div id="modalBody"></div>
+    </article>
+  </div>
+</body>
+</html>
