@@ -963,7 +963,7 @@ input:focus, textarea:focus {
   .cert-grid,
   .achievement-grid,
   .stats-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 2fr;
   }
 
   .section {
