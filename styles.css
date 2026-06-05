@@ -981,6 +981,8 @@ input:focus, textarea:focus {
   .hero-visual {
   display: none;
 }
+  .about-text{
+    display: none;
 }
 
 @media (prefers-reduced-motion: reduce) {
