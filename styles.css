@@ -978,6 +978,9 @@ input:focus, textarea:focus {
   .chip-one, .chip-two, .chip-three {
     display: none;
   }
+  .hero-visual {
+  display: none;
+}
 }
 
 @media (prefers-reduced-motion: reduce) {
