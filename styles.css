@@ -958,13 +958,15 @@ input:focus, textarea:focus {
     display: flex;
   }
 
-  .skills-container,
   .project-grid,
   .cert-grid,
   .achievement-grid,
   .stats-grid {
     grid-template-columns: 2fr;
   }
+  
+
+ 
 
   .section {
     padding: 4.2rem 0;
